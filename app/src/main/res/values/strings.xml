@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Usafe</string>
+    <string name="title_dashboard">หน้าแสดงผล</string>
+    <string name="title_history">ประวัติการใช้งาน</string>
+    <string name="title_profile">ประวัติส่วนตัว</string>
+
+    <string name="notification_title">Usafe</string>
+    <string name="notification_message">แอพกำลังทำงาน…</string>
+    <string name="notification_warning_title">มีคนที่อยู่ใกล้เกินไป!</string>
+    <string name="notification_warning_description">กรุณารักษาระยะห่างเพื่อความปลอดภัย</string>
+    <string name="notification_channel_name">สถานะ</string>
+    <string name="notification_channel_description">สถานะเบื้องหลังการทำงาน</string>
+    <string name="notification_alert_channel_name">การแจ้งเตือนความใกล้ชิด</string>
+    <string name="notification_alert_channel_description">แจ้งเตือนเมือมีคนอยู่ใกล้เกินไป</string>
+    <string name="level1">ดี</string>
+    <string name="level2">ปานกลาง</string>
+    <string name="level3">สุขภาพไม่ดี</string>
+    <string name="level4">สุขภาพไม่ดีมาก</string>
+    <string name="alert_enabled">เปิดใช้งานการแจ้งเตือนความใกล้ชิด</string>
+    <string name="alert_disabled">ปิดใช้งานการแจ้งเตือนความใกล้ชิด</string>
+    <!--<string name="phone_use_description">For uniqueness only, it\'s OK to lie</string>-->
+    <string name="phone_use_description">เพื่อการแยกแยะข้อมูลเท่านั้น, สามารถโกหกได้</string>
+    <string name="ok">ตกลง</string>
+    <string name="sign_up_title">เบอร์มือถือของคุณ</string>
+
+    <string name="bluetooth_not_enable_title">Bluetooth ไม่ได้เปิดใช้งาน</string>
+    <string name="bluetooth_not_enable_msg">กรุณาเปิดใช้งาน bluetooth ใน ตั้งค่า แล้วปิดและเปิดแอพใหม่</string>
+    <string name="bluetooth_le_not_available_title">Bluetooth LE ไม่สามารถใช้งานได้</string>
+    <string name="bluetooth_le_not_available_msg">อุปกรณ์นี้ไม่รองรับ Bluetooth LE.</string>
+    <string name="invalid_phone_number">เบอร์มือถือของคุณสั้นเกินไป</string>
+
+    <string name="guide_title">หลักการทำ Social Distance</string>
+    <!--<string name="guide_description">close contact number is the unique person in 15 minutes per week. **This guide does not conform to any standard.**</string>-->
+    <string name="guide_description">Usafe เก็บตัวเลขของผู้คนที่อยู่ใกล้เคียง 15 นาทีต่อสัปดาห์ **ไกด์ไลน์นี้ไม่ได้เป็นไปตามมาตรฐานใดๆ**</string>
+    <string name="title_level1">0 – 200 ดี</string>
+    <string name="description_level1">เสี่ยงนิดหน่อย หรือ ไม่เสี่ยง, การอยู่บ้านยังเป็นสิ่งที่แนะนำ</string>
+    <string name="title_level2">200 – 400 พอใช้</string>
+    <string name="description_level2">ติดต่อกันพอประมาณ, ควรหลีกเลี่ยงการสัมพัส และ ใส่หน้ากากในที่สาธารณะ</string>
+    <string name="title_level3">400 – 800 สุขภาพไม่ดี</string>
+    <string name="description_level3">มีโอกาสที่จะติดเชื้อ, ควรใส่หน้ากากตลอดเวลา และ ไปหาหมอเมื่อเริ่มมีอาการ</string>
+    <string name="title_level4">> 800 Very Unhealthy</string>
+    <string name="description_level4">มีโอกาสสูงที่จะได้รับเชื้อ ควรใส่หน้ากากช่วยหายใจ เมื่อมีการใกล้ชิดกับผู้อื่น และ แนะนำให้ไปตรวจโรค</string>
+
+    <string name="user_code_title">Tracing Key ของคุณ:</string>
+    <string name="backup_warning">กดเพื่อคัดลอก key ข้างบนจากนั้นคุณสามารถแบคอัพข้อมูลได้ อย่าให้ใครรู้ key ของคุณมันสามารถนำไปใช้ค้นหาได้ใน ค้นหาบุคคนที่อยู่ใกล้</string>
+    <string name="how_it_work">มันทำงานยังไง?</string>
+    <string name="notification_settings">ตั้งค่าการแจ้งเตือน</string>
+    <string name="tell_your_friends">บอกเพื่อนของคุณ</string>
+    <string name="made_in">ทำด้วย ❤️ จาก Thailand</string>
+    <string name="copied">คัดลอก Tracing Key!</string>
+    <string name="export_your_data">ส่งข้อมูลออก (ไม่ระบุตำแหน่ง)</string>
+    <string name="how_it_work_link">https://medium.com/wellmet/how-wellmet-work-f5e1239b3fce</string>
+    <string name="share">แชร์ Usafe ให้กับเพื่อนๆของคุณ</string>
+    <string name="share_title">Usafe - Social Distance Tracker</string>
+    <string name="share_text">Usafe - Social Distance Tracker. ช่วยหยุดการแพร่เชื้อ #COVID19 และ โรคที่เกิดจากการใกล้ชิดอื่นๆดาวโหลดได้แล้วที่ https://github.com/artiya4u/wellmet/releases </string>
+    <string name="rate">Feedback</string>
+</resources>
